@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+:root {
+  --primary-navy: #1B3957;
+  --primary-navy-hover: #244666;
+  --primary-navy-light: #2d5575;
+  --accent-gold: #c69c6d;
+  --accent-gold-hover: #d4aa7f;
+  --accent-gold-light: #e0c4a8;
+  --sidebar-bg: #1B3957;
+  --sidebar-active: #244666;
+  --bg-light: #fafafa;
+  --bg-white: #ffffff;
+  --text-primary: #1a1a1a;
+  --text-secondary: #6b7280;
+  --border-color: #e5e7eb;
+  --success-green: #16a34a;
+  --warning-orange: #ea580c;
+  --light-gray: #bec1c4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-light);
+  color: var(--text-primary);
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.3;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+input, textarea, select {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0;
+}
